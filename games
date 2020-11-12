@@ -49,6 +49,8 @@
             <div class="content">
                 <h2>Games</h2>
 
+                <p>Some games that I developed.</p>
+
                 <iframe src="https://itch.io/embed/800157?linkback=true" width="552" height="167" frameborder="0"><a href="https://danielbarral.itch.io/many-directions">Many Directions by Daniel Barral</a></iframe>
 
                 <iframe src="https://itch.io/embed/791774?linkback=true" width="552" height="167" frameborder="0"><a href="https://danielbarral.itch.io/ball-bounce-saga">Ball Bounce Saga by Daniel Barral</a></iframe>
@@ -56,6 +58,11 @@
                 <iframe src="https://itch.io/embed/764592?linkback=true" width="552" height="167" frameborder="0"><a href="https://danielbarral.itch.io/ball-bounce-mania">Ball Bounce Mania by Daniel Barral</a></iframe>
 
                 <iframe src="https://itch.io/embed/757127?linkback=true" width="552" height="167" frameborder="0"><a href="https://danielbarral.itch.io/jump-ball">Jump Ball by Daniel Barral</a></iframe>
+            
+                <p>I also have an YouTube channel where I publish gameplay videos:</p>
+
+                <p><a href="https://www.youtube.com/channel/UC26dj3IuvCdrWpKaI6dYDrA">https://www.youtube.com/channel/UC26dj3IuvCdrWpKaI6dYDrA</a></p>
+            
             </div>
         </div>
     </body>
