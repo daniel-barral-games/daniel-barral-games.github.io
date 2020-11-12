@@ -1,0 +1,63 @@
+<html>
+
+    <head>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <style>
+            body {
+                margin: 0px;
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+            }
+            .mainLayout {
+                display: grid;
+                height: 100vh;
+                grid-gap: 0px;
+                grid-template-rows: auto auto 1fr;
+            }
+            .header {
+                background-color: #dddddd;
+            }
+            .menu {
+                background-color: #cccccc;
+                display: grid;
+                grid-gap: 20px;
+                grid-template-columns: 1fr auto auto auto 1fr;
+            }
+            .menu > div > a {
+                text-decoration: none;
+                font-weight: bold;
+                /*color: black;*/
+            }
+        </style>
+        
+    </head>
+
+    <body>
+        <div class="mainLayout">
+            <div class="header"><h1>Daniel Barral</h1></div>
+            <div class="menu">
+                <div></div>
+                <div><a href="/">HOME</a></div>
+                <div><a href="/games">GAMES</a></div>
+                <div><a href="/easy-game-maker">EASY GAME MAKER</a></div>
+                <div></div>
+            </div>
+            <div class="content">
+                <h2>Games</h2>
+
+                <iframe src="https://itch.io/embed/800157?linkback=true" width="552" height="167" frameborder="0"><a href="https://danielbarral.itch.io/many-directions">Many Directions by Daniel Barral</a></iframe>
+
+                <iframe src="https://itch.io/embed/791774?linkback=true" width="552" height="167" frameborder="0"><a href="https://danielbarral.itch.io/ball-bounce-saga">Ball Bounce Saga by Daniel Barral</a></iframe>
+
+                <iframe src="https://itch.io/embed/764592?linkback=true" width="552" height="167" frameborder="0"><a href="https://danielbarral.itch.io/ball-bounce-mania">Ball Bounce Mania by Daniel Barral</a></iframe>
+
+                <iframe src="https://itch.io/embed/757127?linkback=true" width="552" height="167" frameborder="0"><a href="https://danielbarral.itch.io/jump-ball">Jump Ball by Daniel Barral</a></iframe>
+            </div>
+        </div>
+    </body>
+    
+</html>
