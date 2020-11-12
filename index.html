@@ -1,3 +1,61 @@
-<h1>Daniel Barral</h1>
-<h2>Games</h2>
-Play my games at itch.io
+<html>
+
+    <head>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <style>
+            body {
+                margin: 0px;
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+            }
+            .mainLayout {
+                display: grid;
+                height: 100vh;
+                grid-gap: 0px;
+                grid-template-rows: auto auto 1fr;
+            }
+            .header {
+                background-color: #dddddd;
+            }
+            .menu {
+                background-color: #cccccc;
+                display: grid;
+                grid-gap: 20px;
+                grid-template-columns: 1fr auto auto auto 1fr;
+            }
+            .menu > div > a {
+                text-decoration: none;
+                font-weight: bold;
+                /*color: black;*/
+            }
+        </style>
+        
+    </head>
+
+    <body>
+        <div class="mainLayout">
+            <div class="header"><h1>Daniel Barral</h1></div>
+            <div class="menu">
+                <div></div>
+                <div><a href="/">HOME</a></div>
+                <div><a href="/games">GAMES</a></div>
+                <div><a href="/easy-game-maker">EASY GAME MAKER</a></div>
+                <div></div>
+            </div>
+            <div class="content">
+                <h2>Games</h2>
+                <p>Play my games at itch.io:</p>
+                <a href="https://danielbarral.itch.io">https://danielbarral.itch.io</a>
+
+                <h2>Easy Game Maker</h2>
+                <p>I am developing a website that allows you to create your own online games.</p>
+                <a href="https://www.easygamemaker.com">https://www.easygamemaker.com</a>
+            </div>
+        </div>
+    </body>
+    
+</html>
